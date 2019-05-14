@@ -11,14 +11,14 @@ import android.content.Context;
  * ~~~~~~版本号:1~~~~~~
  */
 public class ProgressBarUtils {
-    static ProgressDialog progressDlg = null;
 
+     ProgressDialog progressDlg = null;
     /**
      * 启动进度条
      * @param strMessage 进度条显示的信息
      *  当前的activity
      */
-    public static void showProgressDlg(String strMessage, Context ctx) {
+    public void showProgressDlg(String strMessage, Context ctx) {
         if (null == progressDlg) {
             progressDlg = new ProgressDialog(ctx);
             //设置进度条样式
@@ -38,7 +38,7 @@ public class ProgressBarUtils {
     /**
      * 结束进度条
      */
-    public static void stopProgressDlg() {
+    public  void stopProgressDlg() {
         if (null != progressDlg) {
             progressDlg.dismiss();
             progressDlg = null;

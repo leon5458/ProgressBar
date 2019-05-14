@@ -21,14 +21,14 @@ public class UtilsActivity extends AppCompatActivity{
         findViewById(R.id.btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              ProgressBarUtils.showProgressDlg("请求中",UtilsActivity.this);
+             new ProgressBarUtils().showProgressDlg("请求中",UtilsActivity.this);
             }
         });
 
         findViewById(R.id.btn1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ProgressBarUtils.stopProgressDlg();
+               new ProgressBarUtils().stopProgressDlg();
             }
         });
 
