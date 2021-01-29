@@ -21,6 +21,7 @@
         <activity android:name=".JavaActivity" />
         <activity android:name=".UtilsActivity"/>
         <activity android:name=".ProgressDialogActivity"/>
+        <activity android:name=".ProgressViewActivity"/>
     </application>
 
 </manifest>

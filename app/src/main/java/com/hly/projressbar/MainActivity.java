@@ -26,6 +26,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.view).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, ProgressViewActivity.class));
+            }
+        });
+
         findViewById(R.id.utils).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -39,5 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,ProgressDialogActivity.class));
             }
         });
+
+
     }
 }
