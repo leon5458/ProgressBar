@@ -11,7 +11,7 @@
             android:id="@+id/java"
             android:layout_width="wrap_content"
             android:text="java代码实现"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:gravity="center"
             android:layout_gravity="center"/>
 
@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_marginTop="15dp"
             android:text="xml实现"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:gravity="center"
             android:layout_gravity="center"/>
 
@@ -29,7 +29,16 @@
             android:layout_width="wrap_content"
             android:layout_marginTop="15dp"
             android:text="自定义view实现"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+    <TextView
+            android:id="@+id/hori"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="水平进度条"
+            android:layout_height="40dp"
             android:gravity="center"
             android:layout_gravity="center"/>
 
@@ -39,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_marginTop="15dp"
             android:text="工具类实现"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:gravity="center"
             android:layout_gravity="center"/>
 
@@ -49,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_marginTop="15dp"
             android:text="ProgressDialog"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:gravity="center"
             android:layout_gravity="center"/>
 

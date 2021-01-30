@@ -36,17 +36,24 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.utils).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,UtilsActivity.class));
+                startActivity(new Intent(MainActivity.this, UtilsActivity.class));
             }
         });
 
         findViewById(R.id.progressdialog).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,ProgressDialogActivity.class));
+                startActivity(new Intent(MainActivity.this, ProgressDialogActivity.class));
             }
         });
 
+        findViewById(R.id.hori).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, HorizontalActivity.class));
+
+            }
+        });
 
     }
 }
